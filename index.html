@@ -13,38 +13,38 @@
         </div>
         <div class="buttons">
             <div class="row" id="row 1">
-                <button onclick="document.querySelector('#display').value = '' ">AC</button>
-                <button onclick="document.querySelector('#display').value = document.querySelector('#display').value.toString().slice(0,-1) ">DE</button>
-                <button onclick="document.querySelector('#display').value += '.' ">.</button>
-                <button onclick="document.querySelector('#display').value += '/' ">/</button>
+                <button id="button1" onclick="document.querySelector('#display').value = '' ">AC</button>
+                <button id="button2" onclick="document.querySelector('#display').value = document.querySelector('#display').value.toString().slice(0,-1) ">DE</button>
+                <button id="button3" onclick="document.querySelector('#display').value += '.' ">.</button>
+                <button id="button4" onclick="document.querySelector('#display').value += '/' ">/</button>
             </div>
             <div class="row" id="row 2">
-                <button onclick="document.querySelector('#display').value = Math.sin(document.querySelector('#display').value)">Sin</button>
-                <button onclick="document.querySelector('#display').value = Math.cos(document.querySelector('#display').value) ">Cos</button>
-                <button onclick="document.querySelector('#display').value = Math.tan(document.querySelector('#display').value) ">Tan</button>
-                <button onclick="document.querySelector('#display').value = Math.sqrt(document.querySelector('#display').value) ">&radic;</button>
+                <button id="button5" onclick="document.querySelector('#display').value = Math.sin(document.querySelector('#display').value)">Sin</button>
+                <button id="button6" onclick="document.querySelector('#display').value = Math.cos(document.querySelector('#display').value) ">Cos</button>
+                <button id="button7" onclick="document.querySelector('#display').value = Math.tan(document.querySelector('#display').value) ">Tan</button>
+                <button id="button8" onclick="document.querySelector('#display').value = Math.sqrt(document.querySelector('#display').value) ">&radic;</button>
             </div>
             <div class="row" id="row 3">
-                <button onclick="document.querySelector('#display').value += '9' ">9</button>
-                <button onclick="document.querySelector('#display').value += '8' ">8</button>
-                <button onclick="document.querySelector('#display').value += '7' ">7</button>
-                <button onclick="document.querySelector('#display').value += '*' ">*</button>
+                <button id="button9" onclick="document.querySelector('#display').value += '9' ">9</button>
+                <button id="button10" onclick="document.querySelector('#display').value += '8' ">8</button>
+                <button id="button11" onclick="document.querySelector('#display').value += '7' ">7</button>
+                <button id="button12" onclick="document.querySelector('#display').value += '*' ">*</button>
             </div>
             <div class="row" id="row 4">
-                <button onclick="document.querySelector('#display').value += '6' ">6</button>
-                <button onclick="document.querySelector('#display').value += '5' ">5</button>
-                <button onclick="document.querySelector('#display').value += '4' ">4</button>
-                <button onclick="document.querySelector('#display').value += '+' ">+</button>
+                <button id="button13" onclick="document.querySelector('#display').value += '6' ">6</button>
+                <button id="button14" onclick="document.querySelector('#display').value += '5' ">5</button>
+                <button id="button15" onclick="document.querySelector('#display').value += '4' ">4</button>
+                <button id="button16" onclick="document.querySelector('#display').value += '+' ">+</button>
             </div>
             <div class="row" id="row 5">
-                <button onclick="document.querySelector('#display').value += '3' ">3</button>
-                <button onclick="document.querySelector('#display').value += '2' ">2</button>
-                <button onclick="document.querySelector('#display').value += '1' ">1</button>
-                <button onclick="document.querySelector('#display').value += '-' ">-</button>
+                <button id="button17" onclick="document.querySelector('#display').value += '3' ">3</button>
+                <button id="button18" onclick="document.querySelector('#display').value += '2' ">2</button>
+                <button id="button19" onclick="document.querySelector('#display').value += '1' ">1</button>
+                <button id="button20" onclick="document.querySelector('#display').value += '-' ">-</button>
             </div>
             <div class="row" id="row 6">
-                <button onclick="document.querySelector('#display').value += '0' ">0</button>
-                <button onclick="document.querySelector('#display').value += '00' ">00</button>
+                <button id="button21" onclick="document.querySelector('#display').value += '0' ">0</button>
+                <button id="button22" onclick="document.querySelector('#display').value += '00' ">00</button>
                 <button id="equal" onclick="document.querySelector('#display').value = eval(document.querySelector('#display').value) ">=</button>
             </div>
         </div>
